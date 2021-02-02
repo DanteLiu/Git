@@ -12,7 +12,7 @@ using namespace std;
 
 int main()
 {
-	wstring strHelloWorld = L"!!!Hello World!!!";
+	wstring strHelloWorld = L"Hello World!";
 	wcout << strHelloWorld << endl;
 	return 0;
 }
