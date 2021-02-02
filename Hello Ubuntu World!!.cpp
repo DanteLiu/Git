@@ -10,6 +10,7 @@
 using namespace std;
 
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	wstring strHelloWorld = L"!!!Hello World!!!";
+	wcout << strHelloWorld << endl; // prints !!!Hello World!!!
 	return 0;
 }
