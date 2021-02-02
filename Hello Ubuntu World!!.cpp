@@ -7,10 +7,12 @@
 //============================================================================
 
 #include <iostream>
+
 using namespace std;
 
-int main() {
+int main()
+{
 	wstring strHelloWorld = L"!!!Hello World!!!";
-	wcout << strHelloWorld << endl; // prints !!!Hello World!!!
+	wcout << strHelloWorld << endl;
 	return 0;
 }
